@@ -1,0 +1,296 @@
+{
+  "version": "1.0",
+  "businessName": "MRJ Plumbing",
+  "slug": "mrjplumbing",
+  "category": "trades",
+  "designDirection": {
+    "aesthetic": "Industrial Authority",
+    "displayFont": "Bebas Neue",
+    "bodyFont": "Work Sans",
+    "palette": {
+      "primary": "#1a365d",
+      "accent": "#ff8c42",
+      "surface": "#f7fafc",
+      "text": "#2d3748",
+      "textMuted": "#718096"
+    },
+    "effects": [
+      "geometric shapes",
+      "grain texture",
+      "bold shadows",
+      "decorative lines"
+    ]
+  },
+  "designVariations": [
+    {
+      "id": "variation-1",
+      "name": "Industrial Authority",
+      "rationale": "This design reflects MRJ Plumbing's comprehensive service range across major Australian regions with bold, industrial aesthetics. The navy and orange palette conveys trust and urgency - perfect for emergency plumbing situations while maintaining professional credibility for insurance and real estate work.",
+      "palette": {
+        "primary": "#1a365d",
+        "accent": "#ff8c42",
+        "surface": "#f7fafc",
+        "text": "#2d3748",
+        "textMuted": "#718096"
+      },
+      "fonts": {
+        "display": "Bebas Neue",
+        "body": "Work Sans"
+      },
+      "layout": {
+        "hero": "Split layout with bold text overlay on industrial pipe imagery",
+        "sections": "Alternating left-right content blocks with strong geometric dividers",
+        "cards": "Angular cards with subtle shadows and orange accent borders"
+      },
+      "effects": [
+        "geometric shapes",
+        "grain texture",
+        "bold shadows",
+        "decorative lines"
+      ],
+      "mood": [
+        "authoritative",
+        "industrial",
+        "reliable"
+      ],
+      "recommended": true,
+      "recommendationReason": "Best captures the comprehensive nature of MRJ's services while conveying the trust and reliability essential for plumbing emergencies and professional inspections across their wide service area."
+    },
+    {
+      "id": "variation-2",
+      "name": "Coastal Professional",
+      "rationale": "Drawing inspiration from MRJ's Gold Coast location, this design uses teal and charcoal to reflect both water expertise and professional reliability. The clean layout emphasizes their specialized CCTV and leak detection services while maintaining approachability for residential clients.",
+      "palette": {
+        "primary": "#0d9488",
+        "accent": "#fbbf24",
+        "surface": "#f0fdfa",
+        "text": "#374151",
+        "textMuted": "#6b7280"
+      },
+      "fonts": {
+        "display": "Space Grotesk",
+        "body": "DM Sans"
+      },
+      "layout": {
+        "hero": "Centered content with flowing water-inspired background elements",
+        "sections": "Grid-based layout with flowing transitions between service areas",
+        "cards": "Rounded cards with subtle teal gradients and floating effect"
+      },
+      "effects": [
+        "organic blobs",
+        "subtle gradients",
+        "micro-animations",
+        "texture overlays"
+      ],
+      "mood": [
+        "flowing",
+        "professional",
+        "approachable"
+      ],
+      "recommended": false
+    },
+    {
+      "id": "variation-3",
+      "name": "Trade Specialist",
+      "rationale": "This variation emphasizes MRJ's technical expertise in specialized services like CCTV inspection and water intrusion investigation. The bold typography and high-contrast design communicates confidence and precision - essential for insurance reporting and pre-purchase inspections.",
+      "palette": {
+        "primary": "#1f2937",
+        "accent": "#10b981",
+        "surface": "#f9fafb",
+        "text": "#111827",
+        "textMuted": "#4b5563"
+      },
+      "fonts": {
+        "display": "Archivo Black",
+        "body": "Source Sans Pro"
+      },
+      "layout": {
+        "hero": "Full-width background with strong typographic hierarchy and service highlights",
+        "sections": "Card-focused layout with prominent service categorization",
+        "cards": "High-contrast cards with green accent lines and technical styling"
+      },
+      "effects": [
+        "bold shadows",
+        "offset elements",
+        "geometric shapes",
+        "decorative lines",
+        "high contrast"
+      ],
+      "mood": [
+        "technical",
+        "precise",
+        "confident"
+      ],
+      "recommended": false
+    },
+    {
+      "id": "variation-4",
+      "name": "Regional Reliability",
+      "rationale": "Designed to emphasize MRJ's extensive coverage across Gold Coast, Brisbane, and Northern NSW, this warm and trustworthy design appeals to both residential and commercial clients. The earthy palette suggests reliability and established expertise in the region.",
+      "palette": {
+        "primary": "#7c3aed",
+        "accent": "#f59e0b",
+        "surface": "#fefbff",
+        "text": "#3730a3",
+        "textMuted": "#6b46c1"
+      },
+      "fonts": {
+        "display": "Oswald",
+        "body": "Inter"
+      },
+      "layout": {
+        "hero": "Asymmetrical layout with regional map integration and service callouts",
+        "sections": "Mixed layout combining grid and alternating sections for service variety",
+        "cards": "Bordered cards with purple accents and regional service indicators"
+      },
+      "effects": [
+        "parallax hints",
+        "subtle gradients",
+        "offset elements",
+        "texture overlays"
+      ],
+      "mood": [
+        "established",
+        "regional",
+        "comprehensive"
+      ],
+      "recommended": false
+    }
+  ],
+  "selectedVariation": "variation-1",
+  "stories": [
+    {
+      "id": 1,
+      "title": "Project setup: Next.js + Tailwind, Cloudflare config",
+      "description": "Initialize a Next.js project with Tailwind CSS, configured for Cloudflare Pages deployment",
+      "acceptanceCriteria": [
+        "Next.js 14+ project initialized with TypeScript and App Router",
+        "Tailwind CSS configured and working",
+        "npm run build succeeds without errors",
+        "next.config.js configured for static export (output: 'export')"
+      ],
+      "passes": false
+    },
+    {
+      "id": 2,
+      "title": "Homepage: hero with images, services grid, trust signals, CTA",
+      "description": "Build the homepage using downloaded images from assets/images/ for hero, services overview, trust signals, and call-to-action",
+      "acceptanceCriteria": [
+        "Hero section with business name, tagline, and hero image from assets/images/",
+        "Services grid showing main offerings with relevant images",
+        "Trust signals section (reviews, certifications, experience)",
+        "Clear call-to-action buttons",
+        "Uses images from assets/images/ folder (NOT placeholder images)"
+      ],
+      "passes": false
+    },
+    {
+      "id": 3,
+      "title": "Services page with service images",
+      "description": "Create a dedicated services page using downloaded images for each service offering",
+      "acceptanceCriteria": [
+        "All services from content/services.json displayed",
+        "Each service has name, description, and image from assets/images/",
+        "Consistent styling with homepage",
+        "Uses next/image for optimized image loading"
+      ],
+      "passes": false
+    },
+    {
+      "id": 4,
+      "title": "About page with team/business images",
+      "description": "Build the about page with business story and images from assets/images/",
+      "acceptanceCriteria": [
+        "Business story section from content/about.json",
+        "Uses relevant images from assets/images/ (team photos, work photos, etc.)",
+        "Company values or mission statement",
+        "NO placeholder images - use actual downloaded assets"
+      ],
+      "passes": false
+    },
+    {
+      "id": 5,
+      "title": "Contact page: form, map, details",
+      "description": "Create contact page with working form, embedded map, and contact details",
+      "acceptanceCriteria": [
+        "Contact form with name, email, phone, message fields",
+        "Form submits to Formspree or similar service",
+        "Google Maps embed with business location",
+        "Phone, email, address, hours displayed from content/metadata.json"
+      ],
+      "passes": false
+    },
+    {
+      "id": 6,
+      "title": "Design system: Apply vertical aesthetic",
+      "description": "Implement the design system specific to the business vertical with distinctive typography, colors, and styling",
+      "acceptanceCriteria": [
+        "Display font and body font from design direction applied via next/font",
+        "Color palette implemented as CSS variables in globals.css",
+        "Distinctive aesthetic - NOT generic (no Inter, Roboto)",
+        "Visual style matches the business vertical"
+      ],
+      "passes": false
+    },
+    {
+      "id": 7,
+      "title": "Motion & polish",
+      "description": "Add animations and polish including page load reveals, hover states, and smooth scrolling",
+      "acceptanceCriteria": [
+        "Staggered page load animations using Framer Motion or CSS",
+        "Hover effects on interactive elements",
+        "Smooth scroll behavior",
+        "Respects prefers-reduced-motion"
+      ],
+      "passes": false
+    },
+    {
+      "id": 8,
+      "title": "AEO: LocalBusiness schema, meta tags, FAQ",
+      "description": "Implement Answer Engine Optimization with structured data, meta tags, and FAQ section",
+      "acceptanceCriteria": [
+        "LocalBusiness JSON-LD schema with all business details",
+        "Meta title and description optimized for local search",
+        "FAQ section with 3-5 common questions",
+        "Schema validates at schema.org validator"
+      ],
+      "passes": false
+    },
+    {
+      "id": 9,
+      "title": "Mobile responsive",
+      "description": "Ensure the site is fully responsive on mobile devices",
+      "acceptanceCriteria": [
+        "No horizontal scroll at 375px width",
+        "Touch-friendly button sizes (min 44px)",
+        "Readable text without zooming",
+        "Mobile navigation works correctly"
+      ],
+      "passes": false
+    },
+    {
+      "id": 10,
+      "title": "Image optimization with next/image",
+      "description": "Optimize all images using Next.js Image component for performance",
+      "acceptanceCriteria": [
+        "All images use next/image component",
+        "Images from assets/images/ are properly sized and optimized",
+        "Lazy loading enabled for below-fold images",
+        "Lighthouse Performance score > 90"
+      ],
+      "passes": false
+    },
+    {
+      "id": 11,
+      "title": "Deploy to Cloudflare Pages",
+      "description": "Deploy the completed Next.js static site to Cloudflare Pages",
+      "acceptanceCriteria": [
+        "npm run build creates static export in /out folder",
+        "Site deployed successfully to Cloudflare Pages",
+        "Preview URL accessible and HTTPS working",
+        "Loads in under 3 seconds"
+      ],
+      "passes": false
+    }
+  ]
+}
